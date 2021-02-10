@@ -1,4 +1,4 @@
-import { NotifierService } from './../services/notifier.service';
+import { NotifierService } from 'src/app/services/notifier.service';
 import { Component } from '@angular/core';
 import { map } from 'rxjs/operators';
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';

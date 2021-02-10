@@ -39,6 +39,8 @@ $BCSnack-theme-dark: mat-dark-theme((
   )
 ));
 
+$mat-theme-ignore-duplication-warnings: true;
+
 .dark-theme-mode{
   @include angular-material-theme($BCSnack-theme-dark);
 }
